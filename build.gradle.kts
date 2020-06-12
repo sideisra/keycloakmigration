@@ -46,6 +46,8 @@ dependencies {
     compile("org.apache.commons:commons-text:1.8")
     compile("org.apache.commons:commons-lang3:3.9")
 
+    compile("com.fathzer:javaluator:3.0.3")
+
     testCompile(kotlin("test"))
     testCompile(kotlin("test-junit"))
     testImplementation("io.mockk:mockk:1.9")
